@@ -1,0 +1,46 @@
+{
+  "id": "23e4b49e-fcda-444d-8cc0-afbd7d0eca84",
+  "name": "sobre_mim.site",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 1,
+          "platform": "facebook",
+          "lang": "pt-br",
+          "condition": "",
+          "title": "Lanches",
+          "subtitle": "Carne,Frango e Peito de Peru",
+          "imageUrl": "https://firebasestor...e-a3dc-0aa5558c0961",
+          "buttons": [
+            {
+              "text": "solicite seu lanche",
+              "postback": "http://www.datascienceacademy.com.br"
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "pt-br",
+          "condition": "",
+          "speech": "Sim, ele é o www.lanches.com.br."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

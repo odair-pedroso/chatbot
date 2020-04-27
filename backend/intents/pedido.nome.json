@@ -1,0 +1,64 @@
+{
+  "id": "e3c8e2f9-ba32-45be-9b6b-7ab1ffd31b2d",
+  "name": "pedido.nome",
+  "auto": true,
+  "contexts": [
+    "ctx-pedido",
+    "ctx-nome"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "ctx-pedido",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "ctx-tipo-pao",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "id": "aa758440-fdfd-4b5f-9135-84a7ba07b581",
+          "required": false,
+          "dataType": "@sys.any",
+          "name": "nome",
+          "value": "$nome",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "pt-br",
+          "condition": "",
+          "speech": "ok $nome , vamos iniciar o seu atendimento."
+        },
+        {
+          "type": 0,
+          "lang": "pt-br",
+          "condition": "",
+          "speech": "Você deseja seu lanche em pão italiano, pão sírio ou pão de hambúrguer?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

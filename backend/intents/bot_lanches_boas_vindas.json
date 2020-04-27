@@ -1,0 +1,35 @@
+{
+  "id": "15308a99-3cd2-4d6c-bf71-54566135a2b6",
+  "name": "bot_lanches_boas_vindas",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "pt-br",
+          "condition": "",
+          "speech": "Olá #bot_lanches_boas_vindas.nome #bot_lanches_boas_vindas.sobrenome, seja bem vindo, poderíamos ajudar em algo?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "bot_lanches_boas_vindas"
+    }
+  ],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,34 @@
+[
+  {
+    "id": "5af9d3d3-6388-4288-8940-45116a044224",
+    "data": [
+      {
+        "text": "sirio",
+        "alias": "tipo_pao",
+        "meta": "@tipo-pao",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "58b7c5f6-a50b-4b5f-8b78-0302bd3999f3",
+    "data": [
+      {
+        "text": "eu gostaria de ",
+        "userDefined": false
+      },
+      {
+        "text": "hambúrguer",
+        "alias": "tipo_pao",
+        "meta": "@tipo-pao",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

@@ -1,0 +1,48 @@
+[
+  {
+    "id": "f3c2ec52-4bc6-4386-b633-fb2573135d67",
+    "data": [
+      {
+        "text": "p",
+        "alias": "tamanho_pao",
+        "meta": "@tamanho_pao",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "16183e2f-8a8d-45a9-acfd-5e1f7a43f60a",
+    "data": [
+      {
+        "text": "gostaria de tamanho ",
+        "userDefined": false
+      },
+      {
+        "text": "grande",
+        "alias": "tamanho_pao",
+        "meta": "@tamanho_pao",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "ecb84a83-bd8d-4567-80ed-d3a20e6e9ce8",
+    "data": [
+      {
+        "text": "medio",
+        "alias": "tamanho_pao",
+        "meta": "@tamanho_pao",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

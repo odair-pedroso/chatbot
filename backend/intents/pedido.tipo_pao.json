@@ -1,0 +1,64 @@
+{
+  "id": "dcb48d3d-293f-4ddb-b13a-c8e5523636b1",
+  "name": "pedido.tipo_pao",
+  "auto": true,
+  "contexts": [
+    "ctx-pedido",
+    "ctx-tipo-pao"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "ctx-pedido",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "ctx-tamanho-pao",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "id": "4eace2e4-ac30-4616-9d7a-baaf3c1c730b",
+          "required": false,
+          "dataType": "@tipo-pao",
+          "name": "tipo_pao",
+          "value": "$tipo_pao",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "pt-br",
+          "condition": "",
+          "speech": "ok #ctx-pedido.nome . Utilizaremos $tipo_pao no preparo ."
+        },
+        {
+          "type": 0,
+          "lang": "pt-br",
+          "condition": "",
+          "speech": "E qual o tamanho do pão deseja? Temos pequeno , médio e grande."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

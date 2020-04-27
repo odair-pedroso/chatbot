@@ -1,0 +1,34 @@
+{
+  "id": "7371c3c1-832b-4391-bc40-eec514b52230",
+  "name": "pedido.confirmacao_sim",
+  "auto": true,
+  "contexts": [
+    "ctx-pedido",
+    "ctx-pedido-confirmacao"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "pt-br",
+          "condition": "",
+          "speech": "Não foi possível processar seu pedido neste momento. Tente novamente mais tarde."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

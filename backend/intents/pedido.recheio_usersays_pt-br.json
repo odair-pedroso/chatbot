@@ -1,0 +1,44 @@
+[
+  {
+    "id": "ff9b9953-d903-4e2c-9f08-a7fd197fb931",
+    "data": [
+      {
+        "text": "peito de peru",
+        "alias": "recheio",
+        "meta": "@recheio",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "5c97f092-c520-4f25-aedb-20acf2806602",
+    "data": [
+      {
+        "text": "frango",
+        "alias": "recheio",
+        "meta": "@recheio",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "9136cf1a-5810-4876-a7a0-30d7a38b1401",
+    "data": [
+      {
+        "text": "carne",
+        "alias": "recheio",
+        "meta": "@recheio",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

@@ -1,0 +1,9 @@
+{
+  "id": "32a3e8df-ca2e-4ee8-917a-eb8f6175b79d",
+  "name": "dobro_queijo",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

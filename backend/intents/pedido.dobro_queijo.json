@@ -1,0 +1,64 @@
+{
+  "id": "8493dd2c-5650-4bf8-a481-3e129459058d",
+  "name": "pedido.dobro_queijo",
+  "auto": true,
+  "contexts": [
+    "ctx-pedido",
+    "ctx-dobro-queijo"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "ctx-pedido",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "ctx-recheio",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "id": "6e3d2d19-e54a-424f-8b15-948cc774f5b4",
+          "required": false,
+          "dataType": "@dobro_queijo",
+          "name": "dobro_queijo",
+          "value": "$dobro_queijo",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "pt-br",
+          "condition": "",
+          "speech": "ok."
+        },
+        {
+          "type": 0,
+          "lang": "pt-br",
+          "condition": "",
+          "speech": "Qual recheio você deseja? Temos carne, frango e peito de peru."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,45 @@
+{
+  "id": "3a39e82a-86ec-4be6-92bc-913b2bcb50fb",
+  "name": "pedido.tipo_pao_fallback",
+  "auto": true,
+  "contexts": [
+    "ctx-pedido",
+    "ctx-tipo-pao"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "ctx-pedido",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "ctx-tipo-pao",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "pt-br",
+          "condition": "",
+          "speech": "Temos somente os seguintes tipos de pães : italiano , sírio e hambúrguer.  Qual você gostaria?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

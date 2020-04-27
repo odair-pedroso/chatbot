@@ -1,0 +1,51 @@
+{
+  "id": "e7d14e6a-200a-4431-a3d8-d99e2211708a",
+  "name": "pedido.confirmacao_nao",
+  "auto": true,
+  "contexts": [
+    "ctx-pedido",
+    "ctx-pedido-confirmacao"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "ctx-pedido",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "ctx-confirmacao-novo-pedido",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "pt-br",
+          "condition": "",
+          "speech": "ok. Pedido cancelado."
+        },
+        {
+          "type": 0,
+          "lang": "pt-br",
+          "condition": "",
+          "speech": "Deseja solicitar um novo pedido?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

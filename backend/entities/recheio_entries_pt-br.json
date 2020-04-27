@@ -1,0 +1,20 @@
+[
+  {
+    "value": "carne",
+    "synonyms": [
+      "carne"
+    ]
+  },
+  {
+    "value": "frango",
+    "synonyms": [
+      "frango"
+    ]
+  },
+  {
+    "value": "peito de peru",
+    "synonyms": [
+      "peito de peru"
+    ]
+  }
+]

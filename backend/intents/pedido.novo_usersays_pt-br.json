@@ -1,0 +1,103 @@
+[
+  {
+    "id": "c8a54e04-462a-497f-b3c0-e394bfee6b44",
+    "data": [
+      {
+        "text": "gostaria de ",
+        "userDefined": false
+      },
+      {
+        "text": "um sanduíche",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "3491202c-df67-4946-9452-5d77612e67fa",
+    "data": [
+      {
+        "text": "quero ",
+        "userDefined": false
+      },
+      {
+        "text": "um sanduíche",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "99292811-a7f8-4612-9819-6e738aa14e7b",
+    "data": [
+      {
+        "text": "um lanche",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "f495b21a-7f07-4fa5-9fc1-d32519a967c4",
+    "data": [
+      {
+        "text": "um sanduíche por favor",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "19af8b65-921d-4e91-8afd-79597d36f35b",
+    "data": [
+      {
+        "text": "gostaria de pedir ",
+        "userDefined": false
+      },
+      {
+        "text": "um",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " lanche",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "c1e99be2-e54b-4a82-83d6-ba28e9dd3fe8",
+    "data": [
+      {
+        "text": "Por gentileza, gostaria de fazer ",
+        "userDefined": false
+      },
+      {
+        "text": "um",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " pedido",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

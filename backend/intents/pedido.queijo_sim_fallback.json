@@ -1,0 +1,45 @@
+{
+  "id": "f40ac8ec-e38a-4f5e-ba26-1849146def81",
+  "name": "pedido.queijo_sim_fallback",
+  "auto": true,
+  "contexts": [
+    "ctx-pedido",
+    "ctx-queijo"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "ctx-pedido",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "ctx-queijo",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "pt-br",
+          "condition": "",
+          "speech": "Olá, respostas possíveis para esta pergunta : ( sim ou não ). Deseja queijo?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

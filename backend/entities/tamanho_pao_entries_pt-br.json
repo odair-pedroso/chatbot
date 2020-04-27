@@ -1,0 +1,29 @@
+[
+  {
+    "value": "grande",
+    "synonyms": [
+      "GRANDE",
+      "g",
+      "grande"
+    ]
+  },
+  {
+    "value": "médio",
+    "synonyms": [
+      "M",
+      "MEDIO",
+      "MÉDIO",
+      "m",
+      "medio",
+      "médio"
+    ]
+  },
+  {
+    "value": "pequeno",
+    "synonyms": [
+      "PEQUENO",
+      "p",
+      "pequeno"
+    ]
+  }
+]

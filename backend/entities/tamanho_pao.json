@@ -1,0 +1,9 @@
+{
+  "id": "d0bd45d8-8cdf-49cf-8c3a-f8c8d7651b28",
+  "name": "tamanho_pao",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

@@ -1,0 +1,64 @@
+{
+  "id": "6fad58ef-866d-4615-8cfa-ccfacd0d505b",
+  "name": "pedido.tamanho_pao",
+  "auto": true,
+  "contexts": [
+    "ctx-pedido",
+    "ctx-tamanho-pao"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "ctx-pedido",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "ctx-queijo",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "id": "c2d2ca50-7f91-4ffd-add7-3f7e917226ad",
+          "required": false,
+          "dataType": "@tamanho_pao",
+          "name": "tamanho_pao",
+          "value": "$tamanho_pao",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "pt-br",
+          "condition": "",
+          "speech": "OK #ctx-pedido.tipo_pao $tamanho_pao ."
+        },
+        {
+          "type": 0,
+          "lang": "pt-br",
+          "condition": "",
+          "speech": "Deseja queijo?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

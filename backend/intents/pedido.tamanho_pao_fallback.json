@@ -1,0 +1,45 @@
+{
+  "id": "091338c3-a467-4dec-8fa6-2ebabd4a83d8",
+  "name": "pedido.tamanho_pao_fallback",
+  "auto": true,
+  "contexts": [
+    "ctx-pedido",
+    "ctx-tamanho-pao"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "ctx-pedido",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "ctx-tamanho-pao",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "pt-br",
+          "condition": "",
+          "speech": "Somente temos tamanhos : pequeno , médio e grande. Qual tamanho de pão gostaria em seu pedido?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

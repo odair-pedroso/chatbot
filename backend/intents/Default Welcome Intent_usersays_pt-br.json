@@ -1,0 +1,169 @@
+[
+  {
+    "id": "d018abab-dfd6-4d99-8f30-e52be47bc90f",
+    "data": [
+      {
+        "text": "boa ",
+        "userDefined": false
+      },
+      {
+        "text": "noite",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "54620665-76de-4f28-80f6-a943748b4722",
+    "data": [
+      {
+        "text": "boa ",
+        "userDefined": false
+      },
+      {
+        "text": "tarde",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "b48c61fe-7aa4-4ef0-b7c0-ce4ce4d6d212",
+    "data": [
+      {
+        "text": "bom dia",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "600f9a85-c2f8-4c29-a27c-9ac9f686ad18",
+    "data": [
+      {
+        "text": "há quanto tempo",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "665913cf-bf64-4db0-b372-0cd15cef9555",
+    "data": [
+      {
+        "text": "olá",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "f9e6cc64-4fce-4432-8196-b2b6c1596b16",
+    "data": [
+      {
+        "text": "oi",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "3f98a74b-cf25-42b9-969a-af16039d8d59",
+    "data": [
+      {
+        "text": "opa",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "145c0654-2eb2-4080-bde4-90f21caab629",
+    "data": [
+      {
+        "text": "fala aí",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "4cbabf9b-6a26-43df-a031-9820dc576814",
+    "data": [
+      {
+        "text": "fala",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "7a74f3a0-3cc5-4f05-a436-e9d27db2ffac",
+    "data": [
+      {
+        "text": "saudações",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "58a26caf-a612-49d4-b535-2971a847456b",
+    "data": [
+      {
+        "text": "oi tudo bem",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "56e09d93-1df9-437d-adb4-bda972f2b31f",
+    "data": [
+      {
+        "text": "e aí",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "5b761087-f85f-4a95-8b08-c5d8a2f16678",
+    "data": [
+      {
+        "text": "eae",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  }
+]

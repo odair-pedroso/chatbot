@@ -1,0 +1,45 @@
+{
+  "id": "a4529ed1-1683-4c15-aae9-c65f5f2ae5b9",
+  "name": "pedido.dobro_queijo_fallback",
+  "auto": true,
+  "contexts": [
+    "ctx-pedido",
+    "ctx-dobro-queijo"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "ctx-pedido",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "ctx-dobro-queijo",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "pt-br",
+          "condition": "",
+          "speech": "Olá. Respostas possíveis : (sim ou não). Deseja o dobro de queijo?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

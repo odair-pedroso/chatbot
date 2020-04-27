@@ -1,0 +1,45 @@
+{
+  "id": "fd340182-b9dc-4f93-bd94-e4c85ea64631",
+  "name": "pedido.recheio_fallback",
+  "auto": true,
+  "contexts": [
+    "ctx-pedido",
+    "ctx-recheio"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "ctx-pedido",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "ctx-recheio",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "pt-br",
+          "condition": "",
+          "speech": "Olá, temos somente os seguintes recheios: carne, frango ou peito de peru. Qual recheio deseja?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,54 @@
+[
+  {
+    "id": "3830d3e1-7a9c-4419-a4c9-c26bc8cfc97c",
+    "data": [
+      {
+        "text": "no",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "193a9ecd-211b-4e49-a7d6-0f71005c4d04",
+    "data": [
+      {
+        "text": "n",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "11a5b1d5-47e1-4c7f-b3ca-295013e37eb9",
+    "data": [
+      {
+        "text": "nao",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "53ea187a-97bc-4376-bc01-8ef2e0a5b67a",
+    "data": [
+      {
+        "text": "não",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

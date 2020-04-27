@@ -1,0 +1,34 @@
+{
+  "id": "460f59b7-57b5-4ac5-94db-eaaf40811166",
+  "name": "pedido.confirmacao_novo_pedido_nao",
+  "auto": true,
+  "contexts": [
+    "ctx-pedido",
+    "ctx-confirmacao-novo-pedido"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "pt-br",
+          "condition": "",
+          "speech": "Obrigado!"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

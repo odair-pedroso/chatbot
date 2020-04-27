@@ -1,0 +1,9 @@
+{
+  "id": "eddba619-19e8-43c9-aaa0-cf2865c75211",
+  "name": "tipo-pao",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": true,
+  "allowFuzzyExtraction": false
+}

@@ -1,0 +1,72 @@
+[
+  {
+    "id": "6d0971f3-032e-4c89-a73d-5f299658216f",
+    "data": [
+      {
+        "text": "sim",
+        "alias": "dobro_queijo",
+        "meta": "@dobro_queijo",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "964feb21-409b-45a6-a184-2dc2f8b74d3f",
+    "data": [
+      {
+        "text": "s",
+        "alias": "dobro_queijo",
+        "meta": "@dobro_queijo",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "cdd9089c-9289-40ea-9956-411d24766dd4",
+    "data": [
+      {
+        "text": "n",
+        "alias": "dobro_queijo",
+        "meta": "@dobro_queijo",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "2ecdaf05-2146-45fa-aa59-bf2f47b1fae8",
+    "data": [
+      {
+        "text": "nao",
+        "alias": "dobro_queijo",
+        "meta": "@dobro_queijo",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "061495e8-b87c-4ad7-95bf-7d68f7b78e29",
+    "data": [
+      {
+        "text": "não",
+        "alias": "dobro_queijo",
+        "meta": "@dobro_queijo",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  }
+]

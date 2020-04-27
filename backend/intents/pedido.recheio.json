@@ -1,0 +1,64 @@
+{
+  "id": "56f286fd-daf0-4d24-99bb-49a7408f8e26",
+  "name": "pedido.recheio",
+  "auto": true,
+  "contexts": [
+    "ctx-pedido",
+    "ctx-recheio"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "ctx-pedido",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "ctx-pedido-confirmacao",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "id": "c1e43139-981a-4015-adae-7068b9901531",
+          "required": false,
+          "dataType": "@recheio",
+          "name": "recheio",
+          "value": "$recheio",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "pt-br",
+          "condition": "",
+          "speech": "Ótimo, um lanche #ctx-pedido.tamanho_pao de $recheio para você."
+        },
+        {
+          "type": 0,
+          "lang": "pt-br",
+          "condition": "",
+          "speech": "Posso confirmar o pedido?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}
