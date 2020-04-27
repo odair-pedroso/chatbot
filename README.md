@@ -8,3 +8,6 @@ Requisitos:
 Google Dialogflow
 Android Studio
 Java
+
+
+Integração com facebook
