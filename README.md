@@ -6,8 +6,9 @@ Este projeto é um app de chatbot para atendimento de vendas de lanches , com at
 Requisitos:
 
 Google Dialogflow
-Android Studio
-Java
 
+Android Studio
+
+Java
 
 Integração com facebook
