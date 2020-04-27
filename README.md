@@ -11,4 +11,6 @@ Android Studio
 
 Java
 
+Banco de dados Firebase noSQL
+
 Integração com facebook
