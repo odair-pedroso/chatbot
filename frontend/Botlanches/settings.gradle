@@ -1,0 +1,2 @@
+rootProject.name='Bot-lanches'
+include ':app'
